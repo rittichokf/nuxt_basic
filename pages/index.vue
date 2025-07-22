@@ -18,4 +18,34 @@
 
 </script>
 
-<style scoped></style>
+<style scoped>
+nav {
+    background-color: #b6cbe0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: #007bff;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+h2 {
+    color: #343a40;
+    font-size: 24px;
+    margin-top: 20px;
+}
+</style>
